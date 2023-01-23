@@ -1,0 +1,59 @@
+
+:root{
+    --balls: 2
+}
+
+
+body {
+    /* background-size: cover; */
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+	background: url("../images/backgrounds/background.png") repeat center center fixed;
+	/* change size */
+	background-size: cover;
+	/* position X Y */
+	background-position: 0 420px;
+    z-index: 0;
+	
+}
+
+.header {
+    text-align: center;
+}
+
+.checker-container{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    z-index: 1;
+
+    display: flex;
+    justify-content: space-between;
+
+
+    .left{
+        display: flex;
+        align-items: center;
+
+        img{
+            width: auto;
+            height: 100%;
+        }
+    }
+
+    .right{
+        display: flex;
+        align-items: center;
+        justify-content: right;
+
+        img{
+            width: auto;
+            height: 100%;
+        }
+    }
+    
+    
+}
