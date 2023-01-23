@@ -156,7 +156,7 @@ function update() {
     requestAnimationFrame(update);
 
     // update body hue
-    // $('body').css('filter', `hue-rotate(${cube.position.x  * 100}deg)`);
+    $('body').css('filter', `hue-rotate(${cube.position.x  * 100}deg)`);
     // update body background image scroll posti    
     $('body').css('background-position', `${cube.position.x * 100}px ${scroll}px`); //
 
@@ -178,6 +178,9 @@ function update() {
         // scale up body background
         $('body').css('background-size', `${cube.scale.x * 150}%`);
     }
+
+
+
 }
 
 
